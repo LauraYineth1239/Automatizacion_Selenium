@@ -7,7 +7,7 @@ from pyunitreport import HTMLTestRunner
 from selenium import webdriver
 
 class HelloWorld(unittest.TestCase):
-
+    
     # Realiza todo lo necesario antes de empezar la prueba
     # metodo para ambientizar el inicio de los casos
     #@classmethod Decorador para que las distintas paginas corran en una sola pestañae
