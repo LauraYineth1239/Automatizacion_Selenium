@@ -10,7 +10,7 @@ class HelloWorld(unittest.TestCase):
 
     # Realiza todo lo necesario antes de empezar la prueba
     # metodo para ambientizar el inicio de los casos
-    #@classmethod Decorador para que las distintas paginas corran en una sola pestaña
+    #@classmethod Decorador para que las distintas paginas corran en una sola pestañae
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(executable_path= r'D:\Documents\Curso de Selenium Platzi\chromedriver.exe')
